@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+</head>
+<body>
+    <div class="main-header">
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="美团外卖">
+        </a>
+    </div>
+    <div class="main-body">
+        <form action="">
+            <div class="form-group">
+                <label for="cp-input">手机号</label>
+                <input type="text" id="cp-input">
+                <span class="reg-failed"><i class="fa fa-close"></i>请输入您的手机号</span>
+                <span class="reg-success"><i class="fa fa-check-circle"></i>注册成功后,全美团通用</span>
+                <button class="msg-get">免费获取短信验证码</button>
+            </div>
+
+            <div class="form-group">
+                <label for="msg-confirm">短信动态码</label>
+                <input type="text" id="msg-confirm">
+                <span class="reg-failed"><i class="fa fa-close"></i>动态验证码不正确</span>
+            </div>
+
+            <div class="form-group">
+                <label for="ps-input">创建密码</label>
+                <input type="password" id="ps-input">
+                <ul class="ps-strong">
+                    <li>弱</li>
+                    <li>中</li>
+                    <li>强</li>
+                </ul>
+            </div>
+
+            <div class="form-group">
+                <label for="ps-confirm">确认密码</label>
+                <input type="password" id="ps-confirm">
+                <span class="reg-failed"><i class="fa fa-close"></i>两次输入的密码不一致</span>
+                <span class="reg-success"><i class="fa fa-check-circle"></i></span>
+            </div>
+
+            <button class="register-btn">同意以下协议并注册</button>
+            <a href="#" class="xieyi">《美团网用户协议》</a>
+        </form>
+    </div>
+
+    <div class="main-footer">
+        <p class="copyright">©meituan.com  京ICP证070791号  京公网安备11010502025545号</p>
+    </div>
+
+
+    <script src="js/jQuery%201.9.1.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

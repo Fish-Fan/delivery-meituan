@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("../img/bg.jpg") no-repeat center center;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.main-header{
+    height: 44px;
+    width: 100%;
+    background-color: #ffd705;
+    position: relative;
+    font-size: 14px;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 215px;
+}
+.user-container{
+    position: absolute;
+    right:256px;
+    top: 6px;
+    margin: 12px 0;
+}
+.register,.login{
+    padding: 0 12px;
+    color: #6b450a;
+    display: inline-block;
+}
+.login{
+    border-left: 1px solid  #6b450a;;
+}
+.main-body{
+    height: 100%;
+
+    position: relative;
+    overflow: hidden;
+}
+.address{
+    width: 880px;
+    /*height: 56px;*/
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.city,.his-address{
+    width: 120px;
+    height: 56px;
+    background-color: #fff;
+    outline: none;
+    display: inline-block;
+    float: left;
+    border: none;
+}
+.city .cityIn{
+    height: 56px;
+    line-height: 56px;
+}
+.city .cityIn a,.city .cityIn i{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #434343;
+}
+.search{
+    margin-left: 5px;
+    display: inline-block;
+    float: left;
+    height: 56px;
+    overflow: hidden;
+}
+.search .input-search{
+    float: left;
+    width: 460px;
+    height: 20px;
+    line-height: 20px;
+    padding: 18px 5px 18px 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.search .btn-search{
+    display: inline-block;
+    width: 130px;
+    height: 56px;
+    line-height: 56px;
+    font-size: 20px;
+    background-color: #ffd705;
+    color: #6b450a;
+    text-align: center;
+    float: left;
+}
+.his-address{
+    background-color: #eee;
+    margin-left: 10px;
+}
+.his-address a,.his-address i{
+    font-size: 20px;
+    color: #898989;
+}
+.showIcon{
+    position: relative;
+    height: 36px;
+}
+.his-address-dialog{
+    width: 200px;
+    background-color: #fff;
+    position: relative;
+}
+.his-address-dialog .his-address-list{
+    padding: 5px 0;
+}
+.his-address-dialog .his-address-list li{
+    display: block;
+    padding: 5px 10px;
+}
+.address-dialog{
+    width: 719px;
+    height: 200px;
+    position: relative;
+    background-color: #fff;
+    overflow-y: scroll;
+    z-index: 1;
+}
+.address-dialog .dialog-container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.address-dialog .dialog-header{
+    width: 650px;
+    padding: 15px 35px 10px 34px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+.address-dialog .location-container{
+    display: inline-block;
+
+}
+.address-dialog .location-container .location{
+    display: inline-block;
+    text-align: center;
+    width: 96px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fe4d3d;
+    background-color: #fff5f4;
+    margin-left: 10px;
+}
+.address-dialog .dialog-header .search-find{
+    display: inline-block;
+    margin-left: 100px;
+}
+.address-dialog .dialog-header .search-find .search-form{
+    display: inline-block;
+    height: 28px;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    margin-left: 10px;
+    color: #a9a9a9;
+    position: relative;
+    top: 8px;
+}
+.address-dialog .dialog-header .search-find .search-form .icon-front{
+    margin: 2px 0;
+    padding: 5px;
+    float: left;
+}
+.address-dialog .dialog-header .search-find .search-form .search-input{
+    width: 144px;
+    height: 18px;
+    padding: 5px 0 5px 4px;
+    line-height: 18px;
+    float: left;
+    border: none;
+    outline: none;
+}
+.address-dialog .dialog-container .dialog-body{
+    padding: 10px 0;
+}
+.address-dialog .dialog-container .dialog-body .location-block{
+    overflow: hidden;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 10px;
+}
+.address-dialog .dialog-container .dialog-body .location-block .fir-word{
+    width: 10%;
+    float: left;
+}
+.address-dialog .dialog-container .dialog-body .location-block .fir-word span{
+    display: block;
+    background-color: #eee;
+    color: #898989;
+    width: 40px;
+    height: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+    text-align: center;
+}
+.address-dialog .dialog-container .dialog-body .location-block .location-detail{
+    width: 90%;
+    float: right;
+}
+.address-dialog .dialog-container .dialog-body .location-block .location-detail li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+}
+.address-dialog .dialog-container .dialog-body .location-block .location-detail li a{
+    font-size: 14px;
+    color: #434343;
+}
+.address-dialog .dialog-container .dialog-body .location-block .location-detail li a:hover{
+    color: #fa9700;
+}
+.footer-container{
+    width: 800px;
+    margin-left: -400px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+.footer-container ul li{
+    display: inline-block;
+    float: left;
+    padding: 0 30px;
+    border-right: 1px solid #fff;
+}
+.footer-container ul li a{
+    font-size: 14px;
+    color: #fff;
+}
+.footer-container ul li:last-child{
+    border: none;
+}
+.footer-container .copyright{
+    width: 400px;
+    height: 20px;
+    font-size: 12px;
+    margin-left: -200px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    color: #898989;
+}

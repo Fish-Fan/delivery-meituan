@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.main-header{
+    height: 70px;
+}
+.main-header .logo{
+    width: 117px;
+    height: 37px;
+    position: relative;
+    top: 6px;
+    left: 150px;
+}
+.main-body{
+    width: 980px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.main-body .des-img{
+    margin-right: 150px;
+    float: left;
+}
+.main-body .login-container{
+    width: 280px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 50px;
+}
+.main-body .login-container .login-header{
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.main-body .login-container .login-header i{
+    color: #ffd705;
+}
+.main-body .form-filed{
+
+    margin-top: 10px;
+}
+.main-body form label{
+    font-weight: 400;
+    color: #666;
+    float: left;
+}
+.main-body form .switch-model{
+    float: right;
+    font-size: 12px;
+    color: #666;
+}
+.input-group{
+    position: relative;
+    clear: both;
+}
+#cp-input,#num-input,.count-login-input,.count-ps-input{
+    width: 240px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #aaa;
+    padding: 5px 5px 5px 33px;
+    outline: none;
+    color: #A9A9A9;
+
+}
+
+.input-group i{
+    position: absolute;
+    font-size: 24px;
+    top: 5px;
+    left: 10px;
+    color: #E5E5E5;
+}
+ .msg-get{
+    display: block;
+    height: 18px;
+    padding: 1px 8px;
+    font-size: 12px;
+    color: #333;
+    background-color: #e9e9e9;
+    border: 1px solid #b3b3b3;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 10px;
+    outline: none;
+    cursor: pointer;
+}
+ .form-filed .login-footer{
+     overflow: hidden;
+     margin-top: 10px;
+ }
+.form-filed .login-auto{
+    font-size: 12px;
+    color: #333;
+    float: left;
+}
+.form-filed .forget-ps{
+    float: right;
+    color: #FA9700;
+    font-size: 12px;
+}
+form .login-btn{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #FFD705;
+    color: #6B450A;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+form .helper{
+    font-size: 12px;
+    color: #999;
+}
+form .helper a{
+    color: #FFD705;
+}
+
+
+
+
+
+
+
+.main-footer{
+    border-top: 1px solid #eee;
+    /*position: relative;*/
+}
+.main-footer p{
+    /*position: absolute;*/
+    /*top: 5px;*/
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
