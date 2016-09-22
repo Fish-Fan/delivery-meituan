@@ -23,6 +23,9 @@ ul{
     margin: 0 auto;
     overflow: hidden;
 }
+.highlight{
+    color: #fa9700;
+}
 .main-header{
     min-width: 980px;
 
@@ -144,6 +147,7 @@ ul{
 .main-body{
     background-color: #f5f5f5;
     padding-top: 1px;
+    height: 1000px;
 }
 .main-body .retail-container{
     background-color: #fff;
@@ -272,13 +276,18 @@ ul{
 .main-body .delivery-show-container{
     margin: 0 5px;
     padding-top: 10px;
+}
+.main-body .delivery-show-container .delivery-block-container{
     overflow: hidden;
+    border-bottom: 1px solid #E5E5E5;
 }
 .main-body .delivery-show-container .delivery-block{
-    padding: 20px 16px;
+    padding: 10px 16px;
     width: 210px;
-    height: 298px;
+    height: 278px;
     float: left;
+    position: relative;
+    cursor: pointer;
 }
 .main-body .delivery-block .delivery-img-container img{
     width: 210px;
@@ -305,17 +314,54 @@ ul{
 .main-body .delivery-block .delivery-msg-innerbox .star i{
     color: #fa9700;
 }
-.main-body .delivery-block .delivery-msg-innerbox .icon{
+.main-body .icon{
     width: 17px;
     height: 17px;
     margin-right: 5px;
 }
-.main-body .delivery-block .delivery-msg-innerbox .i-pay{
+.main-body .i-pay{
     background: url("../img/icon.png") no-repeat -258px -286px;
 }
-.main-body .delivery-block .delivery-msg-innerbox .i-first{
+.main-body .i-first{
     background: url("../img/icon.png") no-repeat -297px -21px;
 }
-.main-body .delivery-block .delivery-msg-innerbox .i-cut{
+.main-body .i-cut{
     background: url("../img/icon.png") no-repeat -297px -44px;
+}
+.main-body .hover-container{
+    position: absolute;
+    padding-left: 26px;
+    left: 210px;
+    top: 10px;
+    z-index: 10;
+}
+.main-body .hover-msg-container{
+    width: 220px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ffd705;
+    background-color: #fff;
+    -webkit-box-shadow: 4px 5px 13px -3px rgba(153,153,153,1);
+    -moz-box-shadow: 4px 5px 13px -3px rgba(153,153,153,1);
+    box-shadow: 4px 5px 13px -3px rgba(153,153,153,1);
+}
+.main-body .hover-container .fa-sort-asc{
+    position: absolute;
+    font-size: 36px;
+    color: #ffd705;
+    top: 20%;
+    left: 20px;
+}
+.main-body .hover-container .hover-msg-header,.hover-msg-footer-tit{
+    font-size: 14px;
+    color: #fa9700;
+    padding: 5px 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+.main-body .hover-container .hover-msg-body,.hover-retail-msg{
+    padding: 10px 0;
+    line-height: 1.5;
+}
+.main-body .hover-container .hover-msg-body p{
+    padding: 5px 0;
 }
